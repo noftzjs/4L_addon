@@ -41,6 +41,6 @@ Each line carries the in-game time it happened, so late syncs don't distort pace
 
 SavedVariables are only written to disk when the UI reloads, so the addon scores "safe windows" (a flight path departing, going AFK, a loading screen) and shows a one-click Sync button when enough has happened to be worth flushing. By default it never reloads your UI on its own; the button is always your click. One opt-in setting, off by default, reloads once right after login.
 
-## Install by hand
+## Install
 
-Unzip so that you get `Interface/AddOns/LanDashboard/LanDashboard.lua` and `LanDashboard.toc`. The Interface number in the `.toc` matches the client build the LAN runs on; if the AddOns list shows it as out of date, tick **Load out of date AddOns**.
+The addon is on CurseForge as [LanDashboard](https://www.curseforge.com/wow/addons/landashboard), so the CurseForge app can install and update it. By hand, unzip so that you get `Interface/AddOns/LanDashboard/LanDashboard.lua` and `LanDashboard.toc`. The Interface number in the `.toc` matches the client build the LAN runs on; if the AddOns list shows it as out of date, tick **Load out of date AddOns**.
